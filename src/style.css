@@ -586,6 +586,17 @@ button:focus {
   color: white !important;
   background-color: transparent !important;
 }
+.ed-card {
+  border: none !important;
+  color: white !important;
+  background-color: white !important;
+  border-radius: 25px;
+  
+}
+.exp-img{
+  padding: 1px;
+  
+}
 
 .about-activity {
   list-style: none !important;

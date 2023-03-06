@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/neelesh.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import Home3 from "./Home3";
 import Type from "./Type";
 
 function Home() {
@@ -28,20 +29,25 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-            </Col>
+              <div style={{ paddingLeft: 50, textAlign: "left" }}>
+              An Individual with a Computer Science background with an excellent analytical perspective towards solving problems. I have experience in the Digital transformation of organizations by analyzing real data sets.
+           
+              </div>
+               </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "600px" }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
       <Home2 />
+      <Home3 />
     </section>
   );
 }
