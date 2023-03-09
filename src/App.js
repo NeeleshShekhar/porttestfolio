@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
+// import Index from "./components/weather/modules/index";
 // import certification from "./components/certification/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import {
@@ -41,6 +42,8 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* <Route path="/certification" element={<certification />} /> */}
           <Route path="/resume" element={<Resume />} />
+          {/* <Route path="/weather" element={<Index />} /> */}
+          
           <Route path="/certification" element={<Projects />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
